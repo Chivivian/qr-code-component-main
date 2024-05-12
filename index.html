@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="[Outfit](https://fonts.google.com/specimen/Outfit)"
+    />
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        background-color: hsl(220, 15%, 55%);
+        font-family: "outfit", sans-serif;
+      }
+      .body {
+        /* width: 300px;
+        background-color: aqua;
+        margin: auto; */
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        padding: 30px;
+        width: 250px;
+      }
+      .qr-image {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+      }
+      .para2 {
+        color: hsl(220, 15%, 55%);
+        font-size: 15px;
+      }
+      .para1 {
+        font-size: 15px;
+        font-weight: 500;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      @media only screen and(min-width: 375px) {
+        body {
+          background-color: aqua;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="body">
+      <img class="qr-image" src="images/image-qr-code.png" alt="" />
+      <p class="para1">Improve your front-end skills by building projects</p>
+
+      <p class="para2">
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/Chivivian">Precious Williams</a>.
+      </div>
+    </div>
+  </body>
+</html>
